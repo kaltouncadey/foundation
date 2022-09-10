@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-color:#ffb3c6;
+}
+.sawir img{
+    width: 50px;
+    margin: 2em;
+}
+ 
+h2{
+    font-weight: 100px;
+    text-transform: lowercase;
+}
+p{
+    color: grey;
+}
+.nav{
+    display: flex;
+}
+ .heder{
+    margin-top: 2em;
+ }
+.menu ul,li{
+    /* display: flex;
+    list-style: none;
+    text-transform: capitalize;
+    justify-content: space-between;
+    */  
+    display: flex;
+    list-style: none;
+   padding: 0 20px;
+   text-transform: capitalize;
+   justify-content: space-between;
+
+}
+
+.menu{
+    text-align: right;
+}
+
+button{
+    padding: 1em 1em;
+    color: white;
+    border-radius: 1em;
+    background-color:#3a0ca3 ;
+    text-align: right;
+}
+
+.text{
+    margin: 3em;
+}
+
+.qoral{
+    text-transform: uppercase;
+    font-weight: bold;
+     font-weight: 100px;
+     display: grid;
+}
+
+.saiwor img {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 6px;
+    margin-left:30em;
+    object-fit: cover;
+    height: 400px;
+}
+
+
+.menu,li{
+    display: flex;
+    list-style: none;
+padding: 0 20px;
+text-transform: capitalize;
+text-align: right;
+
+}
+
+.goor{
+    display: flex;
+    gap: 1em;
+}
+.butons{
+    border: 1em;
+}
+.buton{
+    color: blue;
+    border-radius: 1em solid white;
+}
