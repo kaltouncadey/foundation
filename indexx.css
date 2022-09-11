@@ -40,6 +40,7 @@ p{
 
 .menu{
     text-align: right;
+    align-items: center;
 }
 
 button{
@@ -77,6 +78,7 @@ button{
 padding: 0 20px;
 text-transform: capitalize;
 text-align: right;
+align-items: center;
 
 }
 
@@ -90,4 +92,8 @@ text-align: right;
 .buton{
     color: blue;
     border-radius: 1em solid white;
+}
+
+@media screen (max-widht:670px) {
+    
 }
